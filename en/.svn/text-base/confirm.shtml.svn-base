@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+        "http://w3.org/TR/REC-html40/loose.dtd">
+<html>
+
+<head>
+<!--#include virtual="../metadata.ssi"-->
+<title>Eressea :: Confirm Your Registration</title>
+</head>
+
+<body>
+<div id="container">
+  <!--#include virtual="header.ssi"-->
+  <!--#include virtual="navigation.ssi"-->
+  <!--#include virtual="righthand.ssi" -->
+  <div id="center">
+<p>Please confirm your registration here. You will need to repeat this step once
+  every week that you are on the waitin list, or your entry will be removed.
+<form method="post" action="http://eressea.upb.de/cgi-bin/eressea/eressea-confirm.py">
+  <table cellpadding=8 width=450>
+    <tr>
+      <td>Customer ID</td>
+      <td>
+        <input size=40 name="custid">
+      </td>
+    </tr>
+    <tr>
+      <td>Key</td>
+      <td>
+        <input size=40 name="password">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="hidden" name="locale" value="en">
+      </td>
+      <td>
+        <input type=submit value="Confirm" name="submit">
+      </td>
+    </tr>
+  </table>
+</form>
+  </div>
+  <div id="foot">&nbsp;</div>
+</div>
+</body>
+</html>

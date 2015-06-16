@@ -1,0 +1,2 @@
+DirectoryIndex index.php index.html index.shtml
+ErrorDocument 404 /de/error_404.php

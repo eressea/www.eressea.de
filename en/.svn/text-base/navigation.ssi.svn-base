@@ -1,0 +1,17 @@
+<div id="left">
+
+<p class="caps">Eressea</p>
+  <p><a href="index.shtml">Home</a></p>
+  <p><a href="register.shtml">Registration</a></p>
+  <p><a href="/rules/en/">Rules</a></p>
+  <p><a href="http://eressea.upb.de/magellan/">Downloads</a></p>
+
+<p class="caps">Community</p>
+  <p><a href="factions.shtml">Faction list</a></p>
+  <p><a href="statistics.shtml">Statistics</a></p>
+  <p><a class="external" href="http://eressea.xanathos.de/">IRC: #eressea</a></p>
+  <p><a class="external" href="http://www.xontormia-express.de/">Xontormia Express</a></p>
+  <p><a class="external" href="http://eressea.army-of-darkness.it//">Forums</a></p>
+
+</p>
+</div>

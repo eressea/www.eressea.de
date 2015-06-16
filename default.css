@@ -1,0 +1,194 @@
+body {
+    background-color: #707070;
+    font-family: Verdana, "Lucida Grande", Tahoma, Helvetica;
+    font-size: 11px;
+}
+
+p, blockquote, li, h2, h3, input, td, th, select, h4, h5
+{
+  font-family: Verdana, "Lucida Grande", Tahoma, Helvetica;
+}
+
+p, blockquote, li, h2, h3, h4, h5
+{
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 18px;
+  text-align: left;
+}
+
+input, select
+{
+  background-color: #F7F7F7;
+  border-top: 1px solid #797979;
+  border-bottom: 1px solid #797979;
+  border-left: 1px solid #797979;
+  border-right: 1px solid #797979;
+}
+
+input.nobg
+{
+  background-color: #FFFFFF;
+  border: 0px;
+}
+
+input.highlight
+{
+  background-color: #FFD39B;
+  text-transform: uppercase;
+}
+
+blockquote
+{
+  margin-left: 20px;
+  margin-right: 0px;
+}
+
+div .panel {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #f0f0f0;
+  line-height: 15px;
+  font-size: 10px;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #f0f0f0;
+}
+
+div .panel p {
+  padding-top: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#right p, #left p
+{
+  line-height: 15px;
+  font-size: 10px;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+#left div, #left p {
+    text-align: right;
+}
+
+#head
+{
+  padding: 0;
+  text-align: center;
+}
+
+#head a { border: 0; }
+
+#container
+{
+    background-color: #fff;
+    width: 760px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#left
+{
+    float: left;
+    width: 150px;
+    margin: 0;
+    margin-right: 5px;
+    padding: 0;
+    padding-top: 60px;
+}
+
+#center
+{
+    padding: 0;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding-top: 30px;
+}
+
+#right
+{
+    float: right;
+    width: 150px;
+    margin: 0;
+    margin-left: 5px;
+    padding: 0;
+    padding-top: 60px;
+}
+
+#foot
+{
+    clear: both;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+    border-bottom: 1px black dotted;
+}
+
+#right a, #left a
+{
+  text-decoration: none;
+  border: 0px;
+  color: #C00;
+}
+
+#left a:hover, #right a:hover
+{
+  text-decoration: underline;
+  border: 0px;
+  color: #C00;
+}
+
+h3
+{
+  border: 0px;
+  font-weight: normal;
+  font-family: Georgia, Times, Serif;
+  font-size: 14px;
+}
+
+h4, h5
+{
+  border: 0px;
+  font-weight: bold;
+  font-family: Georgia, Times, Serif;
+  font-size: 12px;
+}
+
+.caps
+{
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+p.error
+{
+   margin: 0 0 10px 0;
+   padding: 5px 10px;
+   border: 1px dashed #700;
+   background-color: #fee;
+   color: #f00;
+}
+
+td
+{
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#right a.external, #left a.external
+{
+  border: 0px;
+  color: #700;
+}

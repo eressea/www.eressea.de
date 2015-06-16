@@ -1,0 +1,30 @@
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:label="http://www.w3.org/2004/12/q/contentlabel#"
+  xmlns:icra="http://www.icra.org/rdfs/vocabularyv03#">
+  <rdf:Description rdf:about="">
+    <dc:creator rdf:resource="http://www.icra.org" />
+    <dcterms:issued>2010-7-1</dcterms:issued>
+    <label:authorityFor>http://www.icra.org/rdfs/vocabularyv03#</label:authorityFor>
+  </rdf:Description>
+  <label:Ruleset>
+    
+    <label:hasHostRestrictions>
+      <label:Hosts>
+        <label:hostRestriction>eressea.de</label:hostRestriction>
+      </label:Hosts>
+    </label:hasHostRestrictions>
+    <label:hasDefaultLabel rdf:resource="#label_1" />
+    
+    
+  </label:Ruleset>
+  <label:ContentLabel rdf:ID="label_1">
+    <icra:nz>1</icra:nz><icra:nz>1</icra:nz><icra:sa>1</icra:sa><icra:sb>1</icra:sb><icra:sc>1</icra:sc><icra:sd>1</icra:sd><icra:se>1</icra:se><icra:va>1</icra:va><icra:vh>1</icra:vh><icra:vf>1</icra:vf><icra:vg>1</icra:vg><icra:vf>1</icra:vf><icra:vg>1</icra:vg><icra:vh>1</icra:vh><icra:vi>1</icra:vi><icra:vj>1</icra:vj><icra:vz>1</icra:vz><icra:lb>1</icra:lb><icra:lc>1</icra:lc><icra:lz>1</icra:lz><icra:oa>1</icra:oa><icra:ob>1</icra:ob><icra:oc>1</icra:oc><icra:oe>1</icra:oe><icra:od>1</icra:od><icra:og>1</icra:og><icra:oh>1</icra:oh><icra:of>1</icra:of><icra:oz>1</icra:oz><icra:ca>1</icra:ca><icra:cb>1</icra:cb><icra:cz>1</icra:cz><icra:se>1</icra:se><icra:vh>1</icra:vh><icra:vb>1</icra:vb><icra:vc>1</icra:vc><icra:vd>1</icra:vd><icra:nz>0</icra:nz><icra:nz>0</icra:nz><icra:vz>0</icra:vz><icra:lz>0</icra:lz><icra:oz>0</icra:oz><icra:cz>0</icra:cz>
+    <rdfs:label>No nudity; No nudity; Passionate kissing; Obscured or implied sexual acts; Visible sexual touching; Explicit sexual language; Erections/explicit sexual acts; Assault/rape; Injury to human beings; Injury to animals; Injury to fantasy characters (including animation); Blood and dismemberment, animals; Blood and dismemberment, fantasy characters (including animation); Torture or killing of human beings; Torture or killing of animals; Torture or killing of fantasy characters (including animation); No violence; Profanity or swearing; Mild expletives; No potentially offensive language; Depiction of tobacco use; Depiction of alcohol use; Depiction of drug use; Gambling; Depiction of the use of weapons; Incitement or depiction of discrimination or harm against any individual or group based on gender, sexual orientation, ethnic, religious or national identity; Content that creates feelings of fear, intimidation, horror, or psychological terror; Content that sets a bad example for young children: that teaches or encourages children to perform harmful acts or imitate dangerous behaviour; No potentially harmful activities; User-generated content such as chat rooms and message boards (moderated); User-generated content such as chat rooms and message boards (unmoderated); No user-generated content; Erections/explicit sexual acts; Torture or killing of human beings; Injury to human beings; Injury to animals; Injury to fantasy characters (including animation); </rdfs:label>
+  </label:ContentLabel>
+</rdf:RDF>

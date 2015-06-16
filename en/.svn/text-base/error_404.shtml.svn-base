@@ -1,0 +1,24 @@
+<html>
+<head>
+<base href="http://www.eressea.de/en/">
+<!--#include virtual="/metadata.ssi"-->
+<title>Eressea PBEM :: Homepage</title>
+</head>
+<body>
+<div id="container">
+  <!--#include virtual="/en/header.ssi"-->
+  <!--#include virtual="/en/navigation.ssi"-->
+  <!--#include virtual="/en/righthand.ssi" -->
+  <div id="center">
+    <h3>Error 404 - Page Not Found</h3>
+    <p>The page you requested could not be found.
+    <p>If you were directed here by another site, please tell the
+    maintainer to update the link.
+    <p>If you think you found an error on the Eressea web
+    pages, please send an email to <a href="mailto:webmaster@eressea.de">The
+    Webmaster</a>.
+  </div>
+  <div id="foot">&nbsp;</div>
+</div>
+</body>
+</html>
