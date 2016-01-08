@@ -5,9 +5,10 @@
     <p class="nav">
         <a href="../en/">Home</a><br/>
         <a href="register.php">Registration</a><br/>
-        <a href="http://wiki.eressea.de/en/">Rules</a><br/>
+        <a href="rules-en.pdf">Rules PDF (old!)</a><br/>
         <a href="http://magellan.log-out.net/">Downloads</a><br/>
-        <a href="http://bugs.eressea.de/">Report a bug</a><br/>
+        <a href="https://bugs.eressea.de/">Report a bug</a><br/>
+        <a href="https://wiki.eressea.de/">German Wiki</a><br/>
     </p>
 </div>
 

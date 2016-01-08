@@ -8,7 +8,7 @@
         <a href="https://wiki.eressea.de/index.php/Regeln">Regeln</a><br/>
         <a href="https://wiki.eressea.de/index.php/Hilfsmittel">Downloads</a><br/>
         <a href="https://bugs.eressea.de/">Fehler melden</a><br/>
-        <a href="https://wiki.eressea.de/index.php/Spielerseiten">Links</a><br/>
+        <a href="https://wiki.eressea.de/">Wiki</a><br/>
     </p>
 </div>
 
