@@ -1,0 +1,58 @@
+#!/bin/bash
+
+cleanup() {
+rm -f $weexrc
+if [ ! -z $rcbackup ]; then
+echo "restoring $weexrc from backup"
+mv $rcbackup $weexrc
+fi
+}
+
+trap cleanup 0
+set -e
+#set -o pipefail
+password="no_plaintext_passwords"
+if [ ! -z $WEEX_PWD ]; then
+echo "env password found"
+password=$WEEX_PWD
+fi
+weexrc=~/.weex/weexrc
+dir=`pwd`
+
+if [ -e $weexrc ]; then
+echo "existing $weexrc, take a backup"
+rcbackup="$weexrc.orig"
+mv $weexrc $rcbackup
+fi
+
+cat > $weexrc <<EOF
+# automatically created by travis-build
+[default]
+AsciiFile = {
+*.html
+*.ssi
+*.txt
+*.shtml
+*.php
+*.js
+*.py
+}
+
+IgnoreLocalFile = {
+*~
+}
+
+[eressea]
+DestDir = /
+SrcDir = $dir
+Password = $password
+HostName = ftp.eressea.de
+LoginName = eressea-de
+IgnoreRemoteDir = /public
+IgnoreLocalDir = s
+IgnoreLocalDir = .git
+EOF
+
+chmod 600 $weexrc
+weex -m eressea
+cleanup

@@ -1,0 +1,13 @@
+sudo: false
+addons:
+  apt:
+    packages:
+    - weex
+os:
+- linux
+notifications:
+  slack: secure:F89aXLWaE125PaJIlETv12jT4EfH6wLXJmGCPZzrN3OcLn2ahDWqjwuzR7lOEDf2nAISmeMPyDZMhEHXLNHAE5qP6lg9yliYQw5hzGmDK9m1xUq/pPEne/b2Y7K3my1mkRZ6n3asbHgSmBWAfCIk1JN8R5Rv+rmbLuWLc+zofts=
+env:
+  matrix:
+    secure: avjerGrQ89HwaubL7FCjTDOrG9S/46LzKWAF+K0v40/HSyEHW9yXK/mSLUdavcGl8/WlyZzghBukEGJxcFbuKZggbnVfxNXV8xZGSGYgMG/ogyOXhDXbm/awnYh6rtBqYxAs2i5rLOGJ9spOXg02zmek1lN1eUbz7oZX+2cKCPpfj4PqjTrZSI7dlIWOmc2xJ06Zb3E7h30pPPaqEWPdezARX9jX8nYBVFdZsM2GbcHqKsj2HolRrpDOPUsXnqQDjJEzC39LQhAdTOOf1bzOVLvdezxF8Ha+MYiajXfb8Wzw/MGjJUsI1H8qkndhpPfnWk0UBBWRfwwSKodo7s5k1eCcfLtKchIr8PKHNtFIG8oxnDHgzPEmAq9mryyIuEpOxnz/n2WoRZq/1KSu5A+DkgET+nI6GKqC1oZGnVlcrHYFd2vxcoqG3Nlb8QIMY8yHY4V4WXs+PeG5j2Hn28qkZiWElYs0V535SBcbqs8XRchVAFecwMbqDdfDQVldUaIu2V/opM1/FN+nDekYYfQP0lEbzrUIBMcnQUx5VoZHzB618gfXzfPMrLH2D6nh8nmnEz5FEI7aUZI/bxa8hGPVGMrrW26V0rccRAQoAPI1eqDkBwvo+k3osvG6JlUA5STCN5bNv8H9ER7S1ajHM62lxKjhDDHyjSZeF/qV4U31ZtQ=
+script: s/travis-build
