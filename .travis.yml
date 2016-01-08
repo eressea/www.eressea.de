@@ -2,8 +2,6 @@ sudo: false
 addons:
   apt:
     packages:
-    - weex
-    - ncftp
     - lftp
 os:
 - linux
