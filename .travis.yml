@@ -4,6 +4,7 @@ addons:
     packages:
     - weex
     - ncftp
+    - lftp
 os:
 - linux
 notifications:

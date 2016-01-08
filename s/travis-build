@@ -9,63 +9,16 @@ password=$FTP_PASS
 }
 
 ftp-put() {
-ncftpput -R -v -u eressea-de -p $password ftp.eressea.de . de en images includes *.* .ht*
-}
-
-weex-put() {
-mkdir -f ~/.weex
-weexrc=~/.weex/weexrc
-dir=`pwd`
-
-if [ -e $weexrc ]; then
-echo "existing $weexrc, take a backup"
-rcbackup="$weexrc.orig"
-mv $weexrc $rcbackup
-fi
-
-cat > $weexrc <<EOF
-# automatically created by travis-build
-[default]
-AsciiFile = {
-*.html
-*.ssi
-*.txt
-*.shtml
-*.php
-*.js
-*.py
-}
-
-IgnoreLocalFile = {
-*~
-}
-
-[eressea]
-DestDir = /
-SrcDir = $dir
-Password = $password
-HostName = ftp.eressea.de
-LoginName = eressea-de
-IgnoreRemoteDir = /public
-IgnoreLocalDir = s
-IgnoreLocalDir = .git
-EOF
-
-chmod 600 $weexrc
-weex -m eressea
+lftp -u eressea-de,$password ftp.eressea.de -e 'mirror -c -e -R source . ; exit'
 }
 
 cleanup() {
-rm -f $weexrc
-if [ ! -z $rcbackup ]; then
-echo "restoring $weexrc from backup"
-mv $rcbackup $weexrc
-fi
+echo "Aborted."
 }
 
 trap cleanup 0
 set -e
 readpass
-#weex-put
 ftp-put
-cleanup
+echo "Done."
+
