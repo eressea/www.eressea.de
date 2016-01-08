@@ -9,6 +9,7 @@ fi
 }
 
 trap cleanup 0
+mkdir -f ~/.weex
 set -e
 #set -o pipefail
 password="no_plaintext_passwords"
