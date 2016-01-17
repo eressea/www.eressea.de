@@ -2,13 +2,13 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-<? include "includes/header.php"; ?>
+<?php include "includes/header.php"; ?>
 <title>Eressea | Home</title>
 </head>
 <body><div id="container">
-<? include "includes/banner.php"; ?>
-<? include "includes/navigation.php"; ?>
-<? include "includes/righthand.php"; ?>
+<?php include "includes/banner.php"; ?>
+<?php include "includes/navigation.php"; ?>
+<?php include "includes/righthand.php"; ?>
 <div id="center">
 <h3>How to join the game</h3>
 
@@ -17,7 +17,7 @@
 With all those warnings out of the way, if you want to start life in a semi-comfortable area of the world with not too many enemies around you, then you should put your email address on our <a href="http://www.eressea.de/de/register.php">waiting list for new signups</a>, and we'll usually get back to you in a matter of some weeks.
 
 </div>
-<? include "includes/footer.php"; ?>
+<?php include "includes/footer.php"; ?>
 </div>
 </body>
 </html>
