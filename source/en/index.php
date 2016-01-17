@@ -24,19 +24,14 @@
 
 <p>In other words, Eressea is a hobby that can take up a considerable amount of time, and by the time we reach turn number 1,000 in October of 2016, empires will have risen and fallen, and new empires built in the ruins of those first empires, and fallen again. In many ways, Eressea is not so much a game as it is a sandbox that generates stories, and a world with a rich history, in which each player plays a modest part. Most importantly, Eressea is not a game that can be "won" in any classic sense of that word.</p>
 
-<h3>How to join the game</h3>
-
-<p>At this time, joining the game is challenging, and a number of caveats apply. The English rules page has rotted over the years, and most active players are native German speakers. There are a few English speakers in the game, and aside from the lack of a manual, the game can be played in English as well as in German, but the community of non-Germans is not big enough to even run their own web forum at this time. Despite all these warnings, we'd love to have you, and apologize that it's such a challenge. A lot of Eressea's infrastructure has been built by it's community, so if you join us, maybe you can help improve the situation for those who come later? We'd certainly appreciate it! Similarly, if there is a resource that's unavailable in your language, and Google Translate is not doing the job well enough, just ask! We're nice people, and happy to help.</p>
+<h3>Sound interesting? Do you want too...</h3>
 <p>
-With all those warnings out of the way, if you want to start life in a semi-comfortable area of the world with not too many enemies around you, then you should put your email address on our <a href="http://www.eressea.de/de/register.php">waiting list for new signups</a>, and we'll usually get back to you in a matter of some weeks.
-
-<h3>Running your own game</h3>
-
-<p>If you are feeling especially ambitious, and want to start your own game with friends just like we did 20 years ago, that's also an option! Eressea's game server is an open source project, which means that anyone can grab the source from our <a href="https://github.com/eressea/server">github repository</a> and compile it themselves. This is not for the faint of heart, and some experience with the C programming language might be required. We're always interested in spreading the love, though, so if you get stuck, please send an email and we'll help you get going. You'll be glad to hear that unlike the game rules, most of the source code and it's documentation is in English.</p>
-
-<h3>Modifying the game</h3>
-
-<p>The code of Eressea was built with the idea in mind that different worlds would have different rules and game elements. The three active games make use of this modular design, and each new game introduced some new races, resources, items or experimental new rules. Configuration of the game is done through a mixture of configuration files and Lua scripts, and the occasional addition of more C code to the core game. If you want to become part of the development of the game, or just modify the code to build your own variant, you should join our <a href="https://eressea.slack.com">slack channel</a> to discuss your plans.</p>
+<ol>
+<li><a href="players.php">join a running game</a> as a player?</li>
+<li><a href="gms.php">host your own game</a> as a game master?</li>
+<li><a href="devs.php">modify the game</a> as a developer?</li>
+</ol>
+</p>
 </div>
 <? include "includes/footer.php"; ?>
 </div>
