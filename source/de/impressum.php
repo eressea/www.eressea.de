@@ -2,13 +2,13 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
 <head>
-<? include "includes/header.php"; ?>
+<?php include "includes/header.php"; ?>
 <title>Eressea | Impressum</title>
 </head>
 <body><div id="container">
-<? include "includes/banner.php"; ?>
-<? include "includes/navigation.php"; ?>
-<? include "includes/righthand.php"; ?>
+<?php include "includes/banner.php"; ?>
+<?php include "includes/navigation.php"; ?>
+<?php include "includes/righthand.php"; ?>
 <div id="center">
   <h3>Impressum</h3>
   <p class="block">Eressea ist als Hobby von mehreren Leuten entstanden, und &uuml;ber
@@ -29,7 +29,7 @@
     Benni B&auml;rmann:
     Programmierung</p>
 </div>
-<? include "includes/footer.php"; ?>
+<?php include "includes/footer.php"; ?>
 </div>
 </body>
 </html>

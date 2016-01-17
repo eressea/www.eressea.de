@@ -2,13 +2,13 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<? include "includes/header.php"; ?>
+<?php include "includes/header.php"; ?>
 <title>Eressea |Error</title>
 </head>
 <body><div id="container">
-<? include "includes/banner.php"; ?>
-<? include "includes/navigation.php"; ?>
-<? include "includes/righthand.php"; ?>
+<?php include "includes/banner.php"; ?>
+<?php include "includes/navigation.php"; ?>
+<?php include "includes/righthand.php"; ?>
   <div id="center">
     <h3>Error 404 - Page Not Found</h3>
     <p>The page you requested could not be found.</p>
@@ -18,7 +18,7 @@
     pages, please send an email to <a href="mailto:webmaster@eressea.de">The
     Webmaster</a>.</p>
 </div>
-<? include "includes/footer.php"; ?>
+<?php include "includes/footer.php"; ?>
 </div>
 </body>
 </html>

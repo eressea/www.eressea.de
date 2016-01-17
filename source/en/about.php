@@ -2,13 +2,13 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-<? include "includes/header.php"; ?>
+<?php include "includes/header.php"; ?>
 <title>Eressea | Home</title>
 </head>
 <body><div id="container">
-<? include "includes/banner.php"; ?>
-<? include "includes/navigation.php"; ?>
-<? include "includes/righthand.php"; ?>
+<?php include "includes/banner.php"; ?>
+<?php include "includes/navigation.php"; ?>
+<?php include "includes/righthand.php"; ?>
 <div id="center">
     <h3>Getting started</h3>
     <p>The first thing you'll need are the <a href="http://wiki.eressea.de/en/">rules
@@ -33,7 +33,7 @@
       the orders, and once you're done with them, send them to eressea-server@eressea.upb.de.
       Make sure your mail has the subject ERESSEA ORDERS, or it will not be considered.</p>
 </div>
-<? include "includes/footer.php"; ?>
+<?php include "includes/footer.php"; ?>
 </div>
 </body>
 </html>

@@ -3,4 +3,4 @@
 <meta name="author" content="Enno Rehling - webmaster@eressea.de" ></meta>
 <meta name="abstract" content="Eressea" ></meta>
 <link rel="stylesheet" type="text/css" href="../default.css" title="default"/>
-<? include "../includes/icra.php"; ?>
+<?php include "../includes/icra.php"; ?>

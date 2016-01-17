@@ -2,13 +2,13 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
 <head>
-<? include "includes/header.php"; ?>
+<?php include "includes/header.php"; ?>
 <title>Eressea | Impressum</title>
 </head>
 <body><div id="container">
-<? include "includes/banner.php"; ?>
-<? include "includes/navigation.php"; ?>
-<? include "includes/righthand.php"; ?>
+<?php include "includes/banner.php"; ?>
+<?php include "includes/navigation.php"; ?>
+<?php include "includes/righthand.php"; ?>
   <div id="center">
     <h3>Eressea - eine phantastische Welt</h3>
     <p class="block">In Eressea ringen die Mitspieler um die wirtschaftliche und
@@ -29,7 +29,7 @@
     <p class="block">Mitmachen kostet nichts. Eressea ist gratis, und wird von
       der Spielleitung in ihrer Freizeit entwickelt und betrieben.</p>
   </div>
-<? include "includes/footer.php"; ?>
+<?php include "includes/footer.php"; ?>
 </div>
 </body>
 </html>
