@@ -1,10 +1,11 @@
 #!/bin/sh
 set -e
-for REPLY in source/*/*.php ; do
+HERE=`pwd`
+for REPLY in source/??/*.php ; do
   echo $REPLY
   DIR=`dirname $REPLY`
   FILE=`basename $REPLY`
   cd $DIR
   php $FILE | tidy -q -o /dev/null
-  cd -
+  cd $HERE
 done

@@ -16,8 +16,21 @@ cleanup() {
 echo "Aborted."
 }
 
+htmltidy() {
+HERE=`pwd`
+for REPLY in source/??/*.php ; do
+  echo $REPLY
+  DIR=`dirname $REPLY`
+  FILE=`basename $REPLY`
+  cd $DIR
+  php $FILE | tidy -q -o /dev/null
+  cd $HERE
+done
+}
+
 trap cleanup 0
 set -e
+htmltidy
 readpass
 ftp-put
 echo "Done."

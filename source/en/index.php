@@ -25,13 +25,13 @@
 <p>In other words, Eressea is a hobby that can take up a considerable amount of time, and by the time we reach turn number 1,000 in October of 2016, empires will have risen and fallen, and new empires built in the ruins of those first empires, and fallen again. In many ways, Eressea is not so much a game as it is a sandbox that generates stories, and a world with a rich history, in which each player plays a modest part. Most importantly, Eressea is not a game that can be "won" in any classic sense of that word.</p>
 
 <h3>Sound interesting? Do you want too...</h3>
-<p>
+
 <ol>
 <li><a href="players.php">join a running game</a> as a player?</li>
 <li><a href="gms.php">host your own game</a> as a game master?</li>
 <li><a href="devs.php">modify the game</a> as a developer?</li>
 </ol>
-</p>
+
 </div>
 <?php include "includes/footer.php"; ?>
 </div>

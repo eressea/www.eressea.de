@@ -14,7 +14,7 @@ include_once '../includes/time_since.php';
 </div>
 <?php
 ?><div class="panel"><div class="caps">Twitter</div>
-<a href="http://www.twitter.com/eresseadev/"><img border="0" src="../images/twitter-logo.png" width="132" height="132"/></a>
+<a href="http://www.twitter.com/eresseadev/"><img alt="Twitter" border="0" src="../images/twitter-logo.png" width="132" height="132"/></a>
 <p>Eressea hat einen Twitterfeed: <a href="http://www.twitter.com/eresseadev/">@eresseadev</a>.</p>
 </div>
 </div>

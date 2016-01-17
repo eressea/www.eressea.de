@@ -70,7 +70,7 @@ verbessert.</p>
         data-gratipay-username="badgerman"
         data-gratipay-widget="button"
         src="//grtp.co/v1.js"></script>
-   <img src="//img.shields.io/gratipay/badgerman.svg">
+   <img src="//img.shields.io/gratipay/badgerman.svg"/>
 -->
 </p>   
 
