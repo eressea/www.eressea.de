@@ -3,6 +3,8 @@ addons:
   apt:
     packages:
     - lftp
+    - php5-cli
+    - tidy
 os:
 - linux
 notifications:
