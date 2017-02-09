@@ -6,7 +6,7 @@
         <a href="../en/">Home</a><br/>
         <a href="register.php">Registration</a><br/>
         <a href="rules-en.pdf">Rules PDF (old!)</a><br/>
-        <a href="https://magellan-client.sf.net/">Downloads</a><br/>
+        <a href="http://magellan-client.sf.net/">Downloads</a><br/>
         <a href="https://bugs.eressea.de/">Report a bug</a><br/>
         <a href="https://wiki.eressea.de/">German Wiki</a><br/>
     </p>
