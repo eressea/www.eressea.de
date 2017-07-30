@@ -44,7 +44,7 @@ vergangen sind, und einige der fr&uuml;hen Spieler enorme Reiche
 gegr&uuml;ndet haben.</p>
 
 <p>Das passiert nicht mehr w&ouml;chentlich, sondern wann immer sich
-genug Anmedlungen gefunden haben, es kann also ein paar Wochen oder Monate dauern,
+genug Anmeldungen gefunden haben, es kann also ein paar Wochen oder Monate dauern,
 bis Du von uns h&ouml;rst. Wenn Du mitspielen m&ouml;chtest, trage Dich bite auf
 unserer Warteliste Anmeldungen ein.</p>
 <div align="right"><a href="register.php">
