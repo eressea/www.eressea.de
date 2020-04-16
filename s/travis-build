@@ -12,6 +12,10 @@ for REPLY in source/??/*.php ; do
 done
 }
 
+cleanup() {    
+echo "Aborted."
+}
+
 trap cleanup 0
 set -e
 htmltidy
