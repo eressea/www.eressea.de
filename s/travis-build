@@ -1,21 +1,5 @@
 #!/bin/bash
 
-readpass() {
-if [ -z $FTP_PASS ]; then
-echo "no FTP_PASS password found"
-exit -1
-fi
-password=$FTP_PASS
-}
-
-ftp-put() {
-lftp -u eressea-de,$password ftp.eressea.de -e 'mirror -c -e -R source . ; exit'
-}
-
-cleanup() {
-echo "Aborted."
-}
-
 htmltidy() {
 HERE=`pwd`
 for REPLY in source/??/*.php ; do
@@ -31,7 +15,5 @@ done
 trap cleanup 0
 set -e
 htmltidy
-readpass
-ftp-put
 echo "Done."
 
