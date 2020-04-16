@@ -3,7 +3,7 @@ addons:
   apt:
     packages:
     - lftp
-    - php5-cli
+    - php7.0-cli
     - tidy
 os:
 - linux
