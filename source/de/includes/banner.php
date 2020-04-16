@@ -1,3 +1,4 @@
+<?php include "../includes/dragon.php"; ?>
 <div id="head">
 <table width="100%" cellpadding="0" cellspacing="0" border="0" summary="languages">
   <tr>

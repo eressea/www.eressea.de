@@ -1,8 +1,13 @@
-<?php
-include_once '../includes/class.twitter.php';
-include_once '../includes/time_since.php';
-?>
 <div id="right">
+
+<div class="panel">
+    <div class="caps">Twitter</div>
+    <a href="https://www.twitter.com/eresseadev/"><img alt="Twitter Feed" border="0" src="../images/twitter.png" width="132" height="132"/></a>
+    <div class="caps">DiscorD</div>
+    <a href="https://discord.gg/KT5Fffh "><img alt="Discord Chat" border="0" src="../images/discord.png" width="132" height="132"/></a>
+    <a href="https://www.pbem-spiele.de/forum/viewforum.php?f=16"><img alt="German Forum" border="0" src="../images/forum.png" width="132" height="132"/></a>
+</div>
+
 <div class="panel">
     <div class="caps">Causes We Support</div>
     <p>
@@ -11,8 +16,5 @@ include_once '../includes/time_since.php';
     </p>
 </div>
 
-<div class="panel"><div class="caps">Twitter</div>
-<a href="http://www.twitter.com/eresseadev/"><img alt="Twitter" border="0" src="../images/twitter-logo.png" width="132" height="132"/></a>
-<p>Eressea has a twitter feed at <a href="http://www.twitter.com/eresseadev/">@eresseadev</a>.</p>
 </div>
-</div>
+

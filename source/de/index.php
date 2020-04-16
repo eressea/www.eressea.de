@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
 <head>
 <meta name="flattr:id" content="45dlw8"/>
-<?php include "../includes/dragon.php"; ?>
 <?php include "includes/header.php"; ?>
 <title>Eressea | Home</title>
 </head>
@@ -12,6 +11,20 @@
 <?php include "includes/navigation.php"; ?>
 <?php include "includes/righthand.php"; ?>
 <div id="center">
+<h3>Eressea - eine phantastische Welt</h3>
+<p>In Eressea ringen die Mitspieler um die wirtschaftliche und
+  millit&auml;rische Vorherrschaft in einer prinzipiell unbegrenzt gro&szlig;en
+  Welt aus Inseln, die in Regionen unterteilt sind. Dazu werden Einheiten
+  rekrutiert und in unterschiedlichen Fertigkeiten (wie z.B. Holzf&auml;llen,
+  Stra&szlig;enbau, Magie oder Hiebwaffen) ausgebildet.</p>
+<p>Das besondere an Eressea ist, das Du nicht zu einer festgelegten
+  Zeit mit anderen zusammentreffen mußt, sondern jederzeit unter der Woche
+  spielen kannst. Das gesamte Spiel läuft über den Austausch von Emails ab,
+  unter der Woche zwischen Nachbarn und Verbündeten, und einmal wöchentlich
+  mit einer Mail an den Server. Eine Mittagspause, Freistunde oder Wartezeit
+  wird so ganz leicht zu Eressea-Zeit.</p>
+<p>Mitmachen kostet nichts. Eressea ist gratis, und wird von der Spielleitung in ihrer Freizeit entwickelt und betrieben.</p>
+
 <h3>20 Jahre Eressea</h3>
 
 <p>Vor mehr als 20 Jahren begann das Leben auf der Welt von Eressea.

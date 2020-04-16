@@ -1,8 +1,14 @@
-<?php
-include_once '../includes/class.twitter.php';
-include_once '../includes/time_since.php';
-?>
 <div id="right">
+
+<div class="panel">
+    <div class="caps">Twitter</div>
+    <a href="https://www.twitter.com/eresseadev"><img alt="Twitter Feed" border="0" src="../images/twitter.png" width="132" height="132"/></a>
+    <div class="caps">Discord</div>
+    <a href="https://discord.gg/KT5Fffh"><img alt="Discord Chat" border="0" src="../images/discord.png" width="132" height="132"/></a>
+    <div class="caps">Forum</div>
+    <a href="https://www.pbem-spiele.de/forum/viewforum.php?f=16"><img alt="Diskussionsforum" border="0" src="../images/forum.png" width="132" height="132"/></a>
+</div>
+
 <div class="panel">
     <div class="caps">Spenden</div>
     <p>
@@ -12,9 +18,5 @@ include_once '../includes/time_since.php';
         <a class="external" href="http://www.gorillas.org/">Diane Fossey Fund</a>
     </p>
 </div>
-<?php
-?><div class="panel"><div class="caps">Twitter</div>
-<a href="http://www.twitter.com/eresseadev/"><img alt="Twitter" border="0" src="../images/twitter-logo.png" width="132" height="132"/></a>
-<p>Eressea hat einen Twitterfeed: <a href="http://www.twitter.com/eresseadev/">@eresseadev</a>.</p>
-</div>
+
 </div>

@@ -11,6 +11,17 @@
 <?php include "includes/navigation.php"; ?>
 <?php include "includes/righthand.php"; ?>
 <div id="center">
+
+<p>Eressea is a multiplayer turn-based nation-building 4X fantasy game with
+ hundreds of simultaneous players and thousand of individually controlled units.</p>
+
+<p>If you enjoy simulations like Sid Meier's Civilization, and fantasy 
+games of the D&amp;D variety, Eressea is a mix of both: Each unit in the 
+game is a fantasy character with their own skills, and your goal is to 
+build a viable civilization in competition with hundreds of other players.</p>
+
+<p>Eressea is a very low-tech game. There are no 3D graphics, no online play, and turns take an entire week.</p>
+
 <h3>20 Years of Eressea</h3>
 
 <p>When the world of Eressea was created in 1996, it was a playground for a small group of friends who were looking for an environment for their role-playing game characters to live in. As such, it is a world of magic and heroes, with the classic fantasy elements of elves, dwarves, orcs, swords and sorcery. As time went on, these original players invited their friends into the game, and eventually their friends, until everyone who was able to find the game on that new-fangled world wide web was allowed to join.</p>

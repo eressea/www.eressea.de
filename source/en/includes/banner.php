@@ -1,3 +1,4 @@
+<?php include "../includes/dragon.php"; ?>
 <div id="head">
 <table width="100%" cellpadding="0" cellspacing="0" border="0" summary="Languages">
   <tr>
@@ -7,7 +8,7 @@
       <div align="right"><font color="#FFFFFF">
         Deutsch <a href="../de/"><img alt="Deutsch" src="../images/flag-german.png" border="0" width="18" height="10"/></a><br/>
         English <a href="../en/"><img alt="English" src="../images/flag-english.png" border="0" width="18" height="10"/></a><br/>
-        Fran&ccedil;ais <a href="../fr/"><img alt="Francais" src="../images/flag-french.png" border="0" width="18" height="10"/></a></font>
+        </font>
       </div>
    </td>
   </tr>
