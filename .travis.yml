@@ -1,9 +1,10 @@
 sudo: false
+language: php
+php: 7.3
 addons:
   apt:
     packages:
     - lftp
-    - php7.0-cli
     - tidy
 os:
 - linux
