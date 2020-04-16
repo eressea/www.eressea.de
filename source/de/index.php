@@ -2,6 +2,7 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
 <head>
+<meta name="flattr:id" content="45dlw8"/>
 <?php include "../includes/dragon.php"; ?>
 <?php include "includes/header.php"; ?>
 <title>Eressea | Home</title>
