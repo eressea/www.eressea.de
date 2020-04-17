@@ -17,12 +17,14 @@
   Welt aus Inseln, die in Regionen unterteilt sind. Dazu werden Einheiten
   rekrutiert und in unterschiedlichen Fertigkeiten (wie z.B. Holzf&auml;llen,
   Stra&szlig;enbau, Magie oder Hiebwaffen) ausgebildet.</p>
+
 <p>Das besondere an Eressea ist, das Du nicht zu einer festgelegten
-  Zeit mit anderen zusammentreffen mußt, sondern jederzeit unter der Woche
-  spielen kannst. Das gesamte Spiel läuft über den Austausch von Emails ab,
-  unter der Woche zwischen Nachbarn und Verbündeten, und einmal wöchentlich
+  Zeit mit anderen zusammentreffen mu&szlig;t, sondern jederzeit unter der Woche
+  spielen kannst. Das gesamte Spiel l&auml;uft &uuml;ber den Austausch von Emails ab,
+  unter der Woche zwischen Nachbarn und Verb&uuml;ndeten, und einmal w&ouml;chentlich
   mit einer Mail an den Server. Eine Mittagspause, Freistunde oder Wartezeit
   wird so ganz leicht zu Eressea-Zeit.</p>
+
 <p>Mitmachen kostet nichts. Eressea ist gratis, und wird von der Spielleitung in ihrer Freizeit entwickelt und betrieben.</p>
 
 <h3>20 Jahre Eressea</h3>
