@@ -2,7 +2,7 @@
 
 htmltidy() {
 HERE=`pwd`
-for REPLY in source/??/*.php ; do
+for REPLY in {de,en}/*.php ; do
   echo $REPLY
   DIR=`dirname $REPLY`
   FILE=`basename $REPLY`
@@ -12,11 +12,6 @@ for REPLY in source/??/*.php ; do
 done
 }
 
-cleanup() {    
-echo "Aborted."
-}
-
-trap cleanup 0
 set -e
 htmltidy
 echo "Done."

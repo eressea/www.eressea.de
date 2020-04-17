@@ -1,0 +1,10 @@
+<IfModule !authz_core_module>
+order deny,allow
+deny from all
+</IfModule>
+
+<IfModule authz_core_module>
+<RequireAll>
+require all denied
+</RequireAll>
+</IfModule>
