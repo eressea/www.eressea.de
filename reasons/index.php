@@ -1,6 +1,6 @@
 <?php
 
-$dsn = 'sqlite:' . __DIR__ . '/files/reason.sqlite';
+$dsn = 'sqlite:' . __DIR__ . '/reason.sqlite';
 $pdo = new PDO($dsn, null, null, [PDO::ATTR_PERSISTENT => true]);
 $method = $_SERVER['REQUEST_METHOD'];
 if ($method == 'GET') {
