@@ -29,12 +29,11 @@ elseif ($method == 'POST') {
 </head>
 <body>
 <p>
- Lieber Feind, wegen:<br><em>
+ Lieber Feind, wegen <em>
 <?php
 echo htmlentities($reason);
 ?>
-</em><br>
-erklären wir euch formal den Krieg. Auf Wiedersehen!
+</em> erklären wir euch formal den Krieg.</p><p>Auf Wiedersehen!
 </p>
 <hr>
 <p>
